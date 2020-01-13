@@ -1,0 +1,30 @@
+.player-base-container {
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    width: 100%;
+    text-align: left;
+
+    @for $i from 0 to 11 {
+        .player-speed-#{$i * 50} {
+            transition: all (($i * 50) + 0ms);
+        }
+    }
+
+    .player-1 {
+        position: relative;
+        display: inline-block;
+        transition-timing-function: linear;
+
+        .player-1-base-image {
+            width: ($stage-tile-size * 2) + 0px;
+            height: ($stage-tile-size * 2) + 0px;
+            background-size: contain;
+        }
+    }
+
+    .direction-r { transform: rotateZ(90deg); }
+    .direction-l { transform: rotateZ(-90deg); }
+    .direction-d { transform: rotateZ(180deg); }
+    
+}

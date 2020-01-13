@@ -1,0 +1,21 @@
+.bullet-base-container {
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    width: 100%;
+    text-align: left;
+
+    .bullet {
+        width: 10px;
+        height: 10px;
+        z-index: 1 !important;
+        background-size: cover;
+        display: inline-block;
+        position: relative;
+    }
+
+    .bullet-direction-u { transform: translateX(-50%); }
+    .bullet-direction-d { transform: translate(-50%, 50%) rotateZ(180deg); }
+    .bullet-direction-r { transform: translate(100%, -100%) rotateZ(90deg); }
+    .bullet-direction-l { transform: translateY(-100%) rotateZ(-90deg); }
+}

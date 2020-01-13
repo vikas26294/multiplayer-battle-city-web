@@ -1,0 +1,15 @@
+.home-base-container { 
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .home-base {
+        .home-base-image {
+            width: ($stage-tile-size * 2) + 0px;
+            height: ($stage-tile-size * 2) + 0px;
+            background-size: contain;
+            background-colr: black;
+        }
+    }
+}

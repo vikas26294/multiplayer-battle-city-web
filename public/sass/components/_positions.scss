@@ -1,0 +1,16 @@
+/* font sizes */
+@for $i from 0 to $grid-size {
+    @for $j from 0 to $grid-size {
+        .pos-#{$i}-#{$j} {
+            left: ($i * $stage-tile-size) + 0px;
+            top: ($j * $stage-tile-size) + 0px;
+        }
+
+        // @for $k from 0 to 2 {
+        //     .bullet-pos-#{$i}-#{$j + $k} {
+        //         left: ($i * $stage-tile-size) + 0px;
+        //         top: ($j * $stage-tile-size) + 0px;
+        //     }
+        // }
+    }
+}

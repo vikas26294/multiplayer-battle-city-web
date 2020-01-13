@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgb(18, 18, 18, 1);
+  color: #fff;
+}
+
+.title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 1.1;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.room-container {
+}
+
+.new-game-card {
+  padding: 10px;
+}
+
+.existing-game-card {
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.existing-game-card .room-name {
+  font-size: 16px;
+}
+
+.existing-game-card .level {
+  font-size: 14px;
+}
+
+.existing-game-card .player {
+  font-size: 14px;
+}
+
+.existing-game-card .join-button {
+}
+
+a {
+  color: #00B7FF;
+}

@@ -1,0 +1,11 @@
+.stage-background {
+    font-size: 0px;
+
+    .bg-individual-image {
+        width: $stage-tile-size + 0px;
+        height: $stage-tile-size + 0px;
+        display: inline-block;
+        background-size: contain;
+        background-color: black;
+    }
+}

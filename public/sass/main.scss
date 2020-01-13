@@ -1,0 +1,20 @@
+/* base */
+@import 'base/_variables.scss';
+@import 'base/_colors.scss';
+@import 'base/_reset.scss';
+@import 'base/_typography.scss';
+
+/* components */
+@import 'components/_animations.scss';
+@import 'components/_stage_background.scss';
+@import 'components/_homebase.scss';
+@import 'components/_players.scss';
+@import 'components/_positions.scss';
+@import 'components/_bullet.scss';
+
+/* containers */
+@import 'containers/_splash.scss';
+@import 'containers/_game.scss';
+
+/* vendors */
+@import "node_modules/react-image-gallery/styles/scss/image-gallery.scss";

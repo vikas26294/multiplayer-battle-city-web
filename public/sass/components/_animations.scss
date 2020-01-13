@@ -1,0 +1,31 @@
+/* Splash slide up */
+@keyframes slideUp {
+    from {
+        top: 150%;
+        transform: translateY(-50%);
+    }
+    to {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+/* image fade in */
+@keyframes imageFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* image fade out */
+@keyframes imageFadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,29 @@
+/* font families */
+@font-face {
+    font-family: arcadeClassic;
+    src: url(../resources/fonts/ARCADECLASSIC.ttf);
+}
+
+@font-face {
+    font-family: ufont;
+    src: url(../resources/fonts/ufonts.com_m10-battle-cities.ttf);
+}      
+
+/* font sizes */
+@for $i from 3 to 31 {
+    .h#{2 * $i} {
+        font-size: (2 * $i) + 0px;
+    }
+}
+
+/* font weights */
+.bold { font-weight: bold; }
+.light { font-weight: light; }
+.normal { font-weight: normal; }
+
+/* letter spacing */
+@for $i from 1 to 11 {
+    .ls#{$i} {
+        letter-spacing: $i + 0px;
+    }
+}
